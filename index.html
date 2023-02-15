@@ -1,0 +1,31 @@
+<html>
+<style>
+    div{
+        border:1px solid black;
+        height:400px;
+        width:400px;
+    }
+</style>
+<body>
+
+    <div class="test"></div>
+    <div class="test"></div>
+    <div class="test"></div>
+
+    <script>
+
+        var list = document.querySelectorAll('.test');
+        console.log(list)
+
+        for(i=0;i<list.length;i++){
+            console.log(i)
+
+        }
+
+        for(i=0;i<list.length;i++){
+            console.log(list[i])
+
+        }
+    </script>
+</body>
+</html>
